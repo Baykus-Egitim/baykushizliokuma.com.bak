@@ -1,0 +1,161 @@
+<!-- Pricing section Start --> 
+    <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">          
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Satın Al</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 offset-lg-2 offset-md-2 offset-xs-0 col-xs-12 active">
+            <div class="table wow fadeInLeft animated" data-wow-delay="0.6s">
+              <img src="img/payment-types/credit-card-anually.png" alt="Yıllık Kredi Kartı">
+              <div class="pricing-header">
+                <p class="price-value">219 TL</p>
+              </div>
+              <div class="title">
+                <h3>Yıllık Ödeme</h3>
+              </div>
+              <ul class="description">
+                <li>Tek ödeme yapılır.</li>
+                <li>1 yıl (365 gün) kullanım hakkı sağlar.</li>
+                <li>Otomatik olarak yenileme yapılmamaktadır.</li>
+              </ul>
+              <a href="satin-al.html" class="btn btn-common more-margin annually-button">Satın Al</a>
+            </div>
+          </div>
+<!--          <div class="col-lg-4 col-md-4 col-xs-12 active">
+            <div class="table wow fadeInUp animated" id="active-tb" data-wow-delay="0.3s">
+              <img src="img/payment-types/credit-card-monthly.png" alt="Aylık Kredi Kartı">
+              <div class="pricing-header">
+                <p class="price-value">29,90 TL <span> / Aylık</span></p>
+              </div>
+              <div class="title">
+                <h3>Aylık Ödeme</h3>
+              </div>
+              <ul class="description">
+                <li>Aylık olarak ödenir.</li>
+                <li>1 ay (30/31 gün) kullanım hakkı sağlar.</li>
+                <li>Bildirmediğiniz sürece her ay otomatik olarak yenileme yapılır.</li>
+              </ul>
+              <button class="btn btn-common">Satın Al</button>
+            </div>
+          </div>-->
+          
+  <!--         <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="table wow fadeInRight animated" data-wow-delay="0.9s">
+              <img src="img/payment-types/turk-telekom.png" alt="Türk Telekom Faturasına Ek">
+              <div class="pricing-header">
+                <p class="price-value">18,90 TL<span>/ay</span></p>
+              </div>
+              <div class="title">
+                <h3>Türk Telekom’la Ödeme</h3>
+              </div>
+              <ul class="description">
+                <li>Aylık 18,90 TL olmak üzere 10 ay taksitle ödenir.</li>
+                <li>1 yıl (365 gün) kullanım hakkı sağlar.</li>
+                <li>Tutar, her ay Türk Telekom faturanıza yansıtılır. </li>
+              </ul>
+              <a href="http://www.turktelekomakademi.com.tr/egitim/hizligo" target="_blank" class="btn btn-common monthly-button">Satın Al</a>
+            </div>
+          </div>-->
+        </div>
+        <div class="row">
+
+        </div>
+      </div>
+
+      <div id="payment-types-container" class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Taksit Yapılan Kredi Kartları</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <img src="img/cards.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Table Section End -->
+    
+    
+
+
+
+<!-- Footer Section Start -->
+<footer id="footer" class="footer-area section-padding">
+	<div class="container">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12">
+					<div class="widget">
+						<h3 class="footer-logo">
+							<img src="img/logo.png" alt="Hızlıgo">
+						</h3>
+						<div class="textwidget">
+							<p>“Bir romana başlamak dağa tırmanmak gibidir. Soluğunun
+								ritmini ayarlaman, tempoyu tutturman gerekir; aksi halde
+								tıkanıverirsin.”</p>
+							<p id="non-italic">Umberto Eco, "Gülün Adı" notlarından...</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-6">
+					<h3 class="footer-title">Site Haritası</h3>
+					<ul class="footer-link">
+						<li><a
+							href="index.html#about-hizligo">Hızlıgo
+								Nedir?</a></li>
+						<li><a
+							href="index.html#features">Özellikler</a></li>
+						<li><a
+							href="index.html#speedtest">Hızını
+								Ölç</a></li>
+						<li><a href="sss.html">S.S.S.</a></li>
+						<li><a href="index.html#pricing">Satın
+								Al</a></li>
+						<li><a
+							href="aktivasyon.html">Aktivasyon</a></li>
+						<li><a href="giris.html">Giriş</a></li>
+						<li><a href="kvkk.html">KVKK Aydınlatma Metni</a></li>
+					    <li><a href="gizlilik-politikasi.html">Gizlilik ve Güvenlik Politikası</a></li>      
+                        <li><a href="kullanim-hizmet-ve-sartlari.html">Kullanımı ve Hizmet Şartları</a></li>                                      						
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-6">
+					<h3 class="footer-title">İletişim</h3>
+					<ul class="address">
+						<li><i class="lni-map-marker footer-icons"></i> Üniversiteler
+							Mah. İhsan Doğramacı Bulv. No:15 06800 ODTÜ Teknokent Ankara /
+							TÜRKİYE</li>
+						<li><i class="lni-phone-handset footer-icons"></i> <a
+							href="tel:4449994">444 999 4</a></li>
+						<li><i class="lni-envelope footer-icons"></i><a
+							href="mailto:hizligodestek@sebit.com.tr">hizligodestek@sebit.com.tr</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright-content">
+						<p>
+							<span>Tüm Hakları Saklıdır © 2019</span>
+						</p>
+						<p>
+							<span><img class="copyright-logos" src="img/footer-tt.png"
+								alt="Türk Telekom" /></span> <span><img class="copyright-logos"
+								src="img/footer-sebit.png" alt="Sebit" /></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</footer>

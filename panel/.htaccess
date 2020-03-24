@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^([0-9a-zA-Z-_]+)$ $1.php [L,QSA]
+RewriteRule ^([0-9a-zA-Z-_]+)/([0-9]+)$ $1.php?i=$2 [L,QSA]
+ErrorDocument 404 /admin/panel/404.html
+Options -Indexes
+DirectoryIndex slider.php

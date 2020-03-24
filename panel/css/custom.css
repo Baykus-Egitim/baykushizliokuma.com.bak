@@ -1,0 +1,110 @@
+.cke_bottom {
+    background: rgb(255, 255, 255) !important;
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+.cke_top {
+    background: rgb(255, 255, 255) !important;
+    border-radius: 5px 5px 0px 0px !important;
+}
+
+.cke_inner {
+    background: transparent !important;
+}
+
+.cke_chrome {
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 5px !important;
+}
+
+.btn-circle.right-side-toggle {
+    display: none;
+}
+
+.card-subtitle.benzerurun {
+    margin-top: 10px;
+}
+
+.input-group-append .btn-success {
+    height: 36px;
+    background: #2b223a;
+    border: 1px solid #2b223a;
+}
+
+.input-group-append .btn-success:hover {
+    height: 36px;
+    background: #3e354c;
+    border: 1px solid #3e354c;
+}
+
+.input-group-append .btn-success.active, .btn-success:focus, .btn-success.disabled.active, .btn-success.disabled:focus {
+    background: #3e354c !important;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(40, 190, 189, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(40, 190, 189, 0.2);
+    box-shadow: 0 14px 26px -12px rgb(43, 34, 58), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgb(43, 34, 58);
+}
+
+.input-group-append {
+    position: absolute;
+    z-index: 5;
+    right: 1px;
+    top: 1px;
+}
+
+.basarili{
+	position: fixed;
+    right: 10px;
+    top: 90px;
+    z-index: 500;
+    background: #2b223a;
+    color: #fff;
+	z-index: 5;
+}
+.basarili span{
+	color: #fff;
+	margin-left: 10px;
+}
+.hatali{
+	position: fixed;
+    right: 10px;
+    top: 90px;
+    z-index: 500;
+    background: #F03434;
+    color: #fff;
+	z-index: 5;
+}
+.hatali span{
+	color: #fff;
+	margin-left: 10px;
+}
+.alert.install{
+	position: absolute;
+    background: #F03434;
+    color: #fff;
+    z-index: 5;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+    box-shadow: inset 0px 0px 10px #9d1919;
+    border: 0px;
+    border-radius: 0px;
+}
+.alert.install span{
+	color: #fff;
+	margin-left: 10px;
+	position: relative;
+	display: inline;
+}
+.alert.install .close{
+	position: relative;
+	display: inline;
+}
+button.btn.btn-warning.btn-circle.ekle {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.sil {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}

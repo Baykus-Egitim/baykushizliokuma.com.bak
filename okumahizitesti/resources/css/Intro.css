@@ -1,0 +1,75 @@
+﻿.speed_read_intro_container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	/*background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #2c4658), color-stop(100%, #d8e4b9));
+    background: -webkit-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: -o-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: -ms-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c4658', endColorstr='#d8e4b9', GradientType=1);*/
+    background:#1c343e;
+	z-index:896;
+}
+.speed_read_tap_container{
+	position:absolute;
+	width:400px;
+	height:400px;	
+	margin:auto;	
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	text-align:center;
+	border-radius: 200px;	
+}
+.speed_read_tap_container_background{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color: #395966;
+	border-radius: 200px;
+}
+.speed_read_tap_container_text{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    color: black;
+    margin: auto;
+    top: -50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.speed_read_tap_container_text_2{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    color: #4da1fe;
+    margin: auto;
+    top: 90px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 70px;
+    line-height: 45px;	
+}
+
+.speed_read_tap_container_highlight{
+	position:absolute;
+	width:124px;
+	height:124px;
+	margin:auto;	
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	background-image:url(../img/component/loader.png);
+}
+
+

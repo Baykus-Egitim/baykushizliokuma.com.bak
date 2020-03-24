@@ -1,0 +1,119 @@
+.hizligo-popup-glass{
+  z-index: 999991;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.75);
+}
+
+.agreement-p{
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+.hizligo-popup-glass[aggreement="true"] .hizligo-popup-body{
+	top: 50px;
+	max-width: 800px;
+	bottom: 50px;
+    transform: translateX(-50%);
+}
+
+.hizligo-popup-glass[aggreement="true"] .hizligo-popup-body .hizligo-popup-content{
+	max-height: calc(100% - 63px);
+	overflow: auto;
+}
+
+.hizligo-popup-body{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #fff;
+  transition: all 200ms ease-out;
+  width: 90%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 3px;
+  height: auto;
+  box-shadow: 0 45px 100px rgba(0, 0, 0, 0.2);
+}
+
+.hizligo-popup-body[type="success"] .hizligo-popup-header{
+  background-color: #44df9c;
+}
+
+.hizligo-popup-body[type="fail"] .hizligo-popup-header {
+  background-color: #ff6f6f;
+}
+
+.hizligo-popup-body[type="info"] .hizligo-popup-header{
+  background-color: #50707d;
+}
+
+.hizligo-popup-body[type="default"] .hizligo-popup-header{
+  background-color: #50707d;
+}
+
+.hizligo-popup-body[type="speedtest"] .hizligo-popup-header{
+  background-color: #8f3e9f;
+}
+
+.hizligo-popup-body[type="speedtest"]{
+  height: 90%;
+  max-width: 1100px;
+}
+
+.hizligo-popup-header{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.2);
+}
+
+.hizligo-popup-title{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  font-size: 18px;
+  font-weight: 300;
+  transform: translateY(-50%);
+  color: #fff;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hizligo-close-popup-button{
+  position: absolute;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  color: #fff;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.hizligo-popup-content{
+  width: 100%;
+  height: auto;
+  padding: 80px 30px 30px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  border-bottom: 1px solid #efefef;
+}
+
+.hizligo-popup-footer{
+  text-align: right;
+}
+
+.hizligo-popup-footer .btn{
+  margin: 10px;
+}

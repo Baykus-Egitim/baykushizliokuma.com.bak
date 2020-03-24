@@ -1,0 +1,327 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  visible: hidden;
+  font-family: Arial;
+}
+
+/*styleeeesss*/
+#sbt_bodyContainer {
+  height: 100%;
+  width: 100%;
+}
+
+#content, .main 
+{
+    width:100%;
+    height:100%;
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+#content {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background: #fff;
+  width: 730px;
+  height: 580px;
+  box-shadow: 0px 8px 25px 2px rgba(0,0,0,0.3);
+  position:relative;
+  border-radius:15px;
+}
+
+#timer, #focus, .verticalCentered {
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+.word {
+}
+
+.alignTop {
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.fixed {
+  width: 90%;
+  height: 380px;
+}
+
+.flex {
+  width: 90%;
+  height: auto;
+}
+
+#textContainer > .highlighted {
+  background-color: yellow;
+}
+
+.shadowVisible {
+  opacity: 1;
+  display: block;
+}
+
+.shadowHidden {
+  opacity: 0;
+  display: block;
+}
+
+.closedGrouped {
+  background-color: black;
+}
+
+.openClosedGrouped {
+  opacity: 1 !important;
+}
+
+.main {
+  /*background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #2c4658), color-stop(100%, #d8e4b9));
+  background: -webkit-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+  background: -o-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+  background: -ms-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+  background: linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c4658', endColorstr='#d8e4b9', GradientType=1);
+  font-family:Arial;*/
+  background:#8f3e9f;
+}
+
+.startStopButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#startButton {
+  position: relative;
+  margin: 0px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  line-height: 100px;
+  font-size: 22px;
+  top:230px;
+}
+
+.select-type-container {
+  position: relative;
+  margin: 0px auto;
+  width: 360px;/*520px*/
+  font-size: 20px;
+  color: #6a7365;
+}
+
+  .select-type-container .select-type-text {
+    text-align: center;
+  }
+
+  .select-type-container .select-type-button {
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.7);
+    border: none;
+    width: 150px;/*230*/
+    height: 30px;
+    margin-left: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+    .select-type-container .select-type-button:first-child {
+      float: left;
+      margin-left: 10px;
+    }
+
+    .select-type-container .select-type-button:last-child {
+      float: right;
+      margin-right: 10px;
+    }
+
+    .select-type-container .select-type-button:hover {
+      background-color: rgba(0,0,0,0.3);
+    }
+
+#startButtonContainer{
+	position:absolute;
+	width:730px;
+	height:580px;
+	left:0px;
+	top:0px;
+	background-image:url(../img/blur_background.png);
+    border-radius: 15px;
+}
+
+.banner_container{
+    width: 280px;
+    height: 231px;
+    margin-top: 50px;
+    margin-left: 6px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.main_page_button{
+	position:relative;
+	width:100px;
+	height:45px;
+	background-image:url(../img/ana_sayfa_btn.png);
+	left:21px;
+	top:170px;
+	display:inline-block;
+}
+
+.purchase_button{
+    position: relative;
+    width: 150px;/*100*/
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 40px auto;/*15*/
+}
+
+#beginningProtector{
+      position:absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+      background:#8f3e9f;
+      z-index:999;
+  }
+
+
+
+.chart_section_report .chart_combobox{
+   float: right;
+   padding-right: 10px;
+}
+
+.popup_select{
+    color: white;
+    background-color: #8f3e9f;
+    border-radius: 4px;
+    width: 200px;
+    height: 35px;
+    background-position: 170px 16px;
+    font-family: Montserrat-Thin;
+    font-size: 20px;
+}
+
+.popup_select_content{
+    font-family: Montserrat-Thin;
+    font-size: 20px;
+}
+
+#levelDropdown{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.popup_small_dropDown {
+  position: fixed;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.popup_small_dropDown > div {
+  border-radius: 10px;
+  position: fixed;
+  background: #fff;
+  padding: 60px 10px 0px 10px;
+  /* Width of popup can be changed */
+  width: 30%;
+  height: 35%;
+  max-width: 1920px;
+  min-width: 100%;
+  min-height: 350px;
+  z-index: 5001;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  border: 3px solid #8f3e9f;
+  box-shadow: 0 0 5px #8f3e9f, 0 0 10px #8f3e9f inset;
+  transition: all 300ms;
+}
+
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url("../fonts/Montserrat-Thin.otf") format("opentype");
+}
+
+

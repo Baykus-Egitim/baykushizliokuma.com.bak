@@ -1,0 +1,152 @@
+.firefox .choice-block .choice {
+  border-radius: 23px !important;
+  height: 23px !important;
+  width: 23px !important; }
+
+.question.list {
+    position: absolute;
+    left: 30px;
+    right: 10px;
+    top: 40px;
+    bottom: 60px;}
+
+.question.test{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 14px;
+    padding-top: 10px;
+}
+.question.test:not(:first-child){
+    border-top-width: 1px;
+    border-top-color: rgba(70, 85, 104, 0.5);
+    border-top-style: dotted;
+}
+
+.question {
+  font-family: "Arial";
+  font-size: 14px;
+  color: #465568;
+  line-height: 21px; }
+  .question img {
+    vertical-align: middle; }
+
+.question .question-text {
+  float: left;
+  width: 90%;
+  padding-top: 6px;
+  padding-bottom: 15px;
+  cursor: default !important; 
+  word-break:break-word;
+
+}
+
+.question .question-number {
+  display: inline-block;
+  float: left;
+  text-align: right;
+  width: 28px;
+  color: #465568;
+  font-weight: bold;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 0px;
+  margin-right: 10px;
+  line-height: 24px; }
+
+.question .solution-text {
+  border-top: 1px solid #333333;
+  margin-top: 10px;
+  padding-top: 10px; }
+  .question .solution-text .answer {
+    display: block;
+    clear: both;
+    font-weight: bold;
+    margin-top: 5px; }
+
+.question.verbal .choices-block {
+  clear: both;
+  display: table; }
+
+.question.verbal.has-number .choices-block {
+  margin-left: 36px; }
+  .question.verbal .choices-block .choices-row {
+    width: 100%;
+    display: table-row; }
+    .question.verbal .choices-block .choices-row .choice-block {
+      display: table-cell; }
+.question.dijital .choices-block {
+  clear: both;
+  width: 100%; }
+  .question.dijital .choices-block .choices-row {
+    width: 100%;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    -ms-flex-align: center;
+    -moz-box-align: center;
+    -webkit-box-align: center; }
+    .question.dijital .choices-block .choices-row .choice-block {
+      display: -ms-flexbox;
+      display: -moz-box;
+      display: -webkit-box;
+      -ms-flex-align: center;
+      -moz-box-align: center;
+      -webkit-box-align: center; }
+    .question.dijital .choices-block .choices-row .decision {
+      margin-top: -9px; }
+
+.question .choice-block {
+  padding-bottom: 5px;
+  position: relative; }
+  .question .choice-block .decision {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px; }
+    .question .choice-block .decision:after {
+      position: absolute;
+      content: ' ';
+      background: url("../assets/butonlar.png"); }
+    .question .choice-block .decision.wrong:after {
+      background-position: -58px -429px;
+      width: 24px;
+      height: 23px;
+      left: -28px;
+      top: -7px; }
+    .question .choice-block .decision.right:after {
+      background-position: -16px -429px;
+      width: 24px;
+      height: 22px;
+      left: -28px;
+      top: -5px; }
+  .question .choice-block .choice {
+    display: inline-block;
+    border: 3px solid transparent;
+    cursor: default;
+    background-color: #babbbb;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    margin-left: 0px;
+    float: left;
+    opacity: .6; }
+    .question .choice-block .choice.selected {
+      border: 3px solid #69766b;
+      opacity: .99; }
+    .question .choice-block .choice.active:hover {
+      cursor: pointer;
+      opacity: .99; }
+    .question .choice-block .choice span {
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      line-height: 18px; }
+  .question .choice-block .content-block {
+    position: relative;
+    float: left;
+    max-width: 78%;
+    padding-top: 4px;
+    cursor: default !important; }

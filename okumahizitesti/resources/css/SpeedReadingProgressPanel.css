@@ -1,0 +1,255 @@
+﻿.speed_reading_interaction_glass {
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.speed_reading_interaction_glass {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+#progressContainer > div {
+    width: 98px;
+    text-align: center;
+    height: 50px;
+    left: 1px;
+    position: absolute;
+    -webkit-user-select: none;
+    top: 1px;
+    color: rgb(128, 169, 200);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 24.5px;
+    line-height: normal;
+    font-family: Arial;
+    text-shadow: rgb(255, 255, 255) 0px 1px 1px;
+}
+
+.menuContainer {
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.3);
+    background-position: 0px 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.mainWpmProgressMenuContainer_scaled {
+    width: 350px !important;
+    height: 180px !important;
+    margin: auto;
+    text-align: center;
+    bottom: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+}
+
+.scaled {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -webkit-transform-origin: 0 0;
+    -moz-transform: scale(1.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1.5);
+    -o-transform-origin: 0 0;
+    -ms-transform: scale(1.5);
+    -ms-transform-origin: 0 0;
+}
+
+
+.notScaled {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 0 0;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1);
+    -o-transform-origin: 0 0;
+    -ms-transform: scale(1);
+    -ms-transform-origin: 0 0;
+}
+
+
+
+#WPMContainer {
+}
+
+.wpmText {
+    text-align: center;
+    font-family: Arial;
+    color: rgb(128, 169, 200);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 239, 250);
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+@media all and (orientation:landscape) {
+    .mainWpmProgressMenuContainer {
+        position: absolute;
+        top: 0px;
+        width: 100px;
+        height: 300px;
+        left: 5px;
+    }
+
+    #progressContainer {
+        float: left;
+    }
+
+    .WPMContainerScaled {
+        top: 180px !important;
+    }
+
+    .WPMContainerAnimated {
+        opacity: 1;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 2s;
+    }
+
+    .progressContainerAnimated {
+        opacity: 1;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 2s;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media all and (orientation:portrait) {
+    .mainWpmProgressMenuContainer {
+        position: absolute;
+        top: 5px;
+        width: 300px;
+        height: 100px;
+        left: 0px;
+    }
+
+    #progressContainer {
+        float: left;
+    }
+}
+
+
+.movementArea {
+    position: absolute;
+    top: 10%;
+    height: 90%;
+    width: 700px;
+    right: -350px;
+    background-color: azure;
+}
+
+.swipeContainer {
+    top: 0px;
+    left: 350px;
+    width: 350px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #34495E;
+    z-index: 2;
+}
+
+#swipeHandle {
+    color: white;
+    font-size: 20pt;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    background-position: center;
+    background-color: #34495E;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack: center;
+    box-align: center;
+	background-image:url(../img/book.png);
+}
+
+.fa fa-book fa-4 {
+}
+
+.com_sebit_components_SwipeDragContainer {
+    display: none !important;
+}

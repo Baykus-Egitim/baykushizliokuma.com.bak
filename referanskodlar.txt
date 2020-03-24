@@ -1,0 +1,26 @@
+<section id="referanslar" class="section-padding" >
+	<div class="container">
+	<div class="row" style="padding-top: 60px; padding-bottom: 60px;">
+	<div class="col-md-12">
+	<center><h3 class="section-title wow fadeInDown animated yorumlarbaslik" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">Referanslarımız</h3></center>
+	<p class="yorumaltbaslik wow fadeInDown animated">Sed ut perspiciatis unde omnis iste natus error</p>
+	</div>
+	<div class="col-md-12">
+	
+	<img class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	<img  class="referanslar-img" src="img/referans-logo.png"/>
+	
+	
+	
+	</div>
+	</div>
+      
+    </section>

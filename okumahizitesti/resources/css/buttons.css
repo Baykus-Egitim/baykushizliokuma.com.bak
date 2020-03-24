@@ -1,0 +1,88 @@
+[class*="-btn"]{
+    position: absolute;
+    cursor: pointer;
+    background-image: url("../assets/butonlar.png");
+}
+[class*="-btn"].passive{
+    opacity: .5;
+    cursor: default;
+}
+[class*="-navigation"]{
+    top: 50%;
+    width: 37px;
+    height: 37px;
+}
+
+.prev-btn-navigation{
+    left: -45px;
+    background-position: -30px -153px;
+}
+
+.next-btn-navigation{
+    right: -45px;
+    background-position: -88px -153px;
+}
+
+.check-btn{
+    right: 10px;
+    bottom: 10px;
+
+    width: 146px;
+    height: 30px;
+
+    background-position: -14px -58px;
+    background-color:#4da1fe;
+    border-radius:7px;
+    background-image:none;
+    background-repeat:no-repeat;
+    text-align: center;
+    line-height: 29px;
+}
+
+.ok-btn{
+    right: 15px;/*22*/
+    bottom: 15px;/*14*/
+    width: 55px;/*126*/
+    height: 55px;/*35*/
+    background-color: white;
+    border-radius: 30px;
+    background-image: url(../assets/enter.svg);
+    background-repeat:no-repeat;
+    background-size: 55px 55px;
+}
+.close-btn{
+    right: 10px;
+    top: 11px;
+
+    width: 13px;
+    height: 13px;
+
+    background-position: -106px -22px;
+    z-index:10;
+}
+
+.continueButton{
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(77, 161, 254, 1);
+	border-radius: 7px;
+    font-size: 15px;
+    border:none;
+    color:black;
+	right: 85px;
+    bottom: 30px;
+    line-height: 29px;
+    width: 126px;
+    height: 30px;
+    text-align:center;
+}
+
+.continueButton:hover {
+    background-color: rgba(77, 161, 254, 0.5);
+}
+
+.continueButton.passive
+{
+    opacity: .5;
+    cursor: default;
+}

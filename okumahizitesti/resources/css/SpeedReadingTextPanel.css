@@ -1,0 +1,126 @@
+﻿.com_sebit_components_SpeedReadingTextPanelButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background-position: center;
+    background-color: #34495E;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.com_sebit_components_SpeedReadingTextPanel {
+    min-width: 300px;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    font-family: Arial;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #2c4658), color-stop(100%, #d8e4b9));
+    background: -webkit-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: -o-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: -ms-linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    background: linear-gradient(45deg, #2c4658 0%, #d8e4b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c4658', endColorstr='#d8e4b9', GradientType=1);
+}
+
+.com_sebit_components_SpeedReadingTextPanel, .com_sebit_components_SpeedReadingTextPanelButton {
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+SpeedReadingTextPanel_contentContainer, .SpeedReadingTextPanel_contentTitle {
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-align: center;
+}
+
+.SpeedReadingTextPanel_contentContainer {
+    width: 90%;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.speedReadingContainerTitle {
+    color: white;
+}
+
+.speedReadingTextPanelButton {
+    margin-top: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 2px #FFFFFF;
+    -moz-box-shadow: 0px 0px 2px #FFFFFF;
+    box-shadow: 0px 0px 2px #FFFFFF;
+    background-color: #DDDDDD;
+    padding: 10px;
+    font-size: 12pt;
+    color: #888888;
+    text-align: left;
+}
+
+.com_sebit_components_SpeedReadingTextPanelButton > .fa {
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.SpeedReadingTextPanel_contentTitle {
+    height: 60px;
+    border-bottom: bisque;
+    font-style: normal;
+    font-size: 14pt;
+    color: white;
+}
+
+.selected {
+    color: rosybrown;
+}
+
+.com_sebit_components_SpeedReadingTextPanelScreen {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: darkcyan;
+    opacity: 0;
+}
+
+.nano {
+    height: 300px !important;
+}
+
+.content {
+    /*height: 300px !important;*/
+}
+
+.pane {
+    display: block !important;
+}
