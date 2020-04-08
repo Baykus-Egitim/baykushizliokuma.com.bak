@@ -1,0 +1,3 @@
+- Okuma hızını ölç scroll bar
+- Satın al ve ödeme bildirimi düğmeleri ipad yatay
+- SEO metinleri
