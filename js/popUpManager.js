@@ -20,7 +20,7 @@ PopupManager = function () {
     	_this.closeFunction = _closeFunction;
     	
         _this.mainContainer = $('<div class="hizligo-popup-glass animated fadeIn">' +
-                                    '<div data-wow-delay="0.3s" class="hizligo-popup-body animated fadeIn" type="speedtest">' +
+                                    '<div data-wow-delay="0.3s" class="hizligo-popup-body animated fadeIn" type="speedtest" >' +
                                         '<div class="hizligo-popup-header">' +
                                             '<span class="hizligo-popup-title">Hızımı Belirle</span>'+
                                             '<span class="hizligo-close-popup-button"><i class="lni-close"></i></span>'+
